@@ -13,5 +13,10 @@ class StartPhp
         return new StartPhp;
     } 
 
+    public function getInfoPhp()
+    {
+        return phpinfo();
+    }
+
 
 }
